@@ -137,7 +137,7 @@
 						</div>
 						<div class="media-body">
 							<h3 class="media-heading">Albañilería</h3>
-							<p>Reformas integrales o parciales, piscinas, paelleros, decoracion, cocinas, baños, suelos, impermeabilizaciones y tipo de albañileria en locales comerciales o viviendas.</p>
+							<p>Reformas integrales o parciales, piscinas, paelleros, decoración, cocinas, baños, suelos, impermeabilizaciones y tipo de albañileria en locales comerciales o viviendas.</p>
 						</div>
 					</div>
 				</div>
@@ -148,7 +148,7 @@
 						</div>
 						<div class="media-body">
 							<h3 class="media-heading">Limpieza</h3>
-							<p>Limpiezas integrales, fines de obra, vitrificado suelo, limpiezas periodicas, limpiezas panteones, limpiezas domesticas, fachadas. Especialistas en comunidades de vecinos.</p>
+							<p>Limpiezas integrales, fines de obra, vitrificado suelo, limpiezas periódicas, limpiezas panteones, limpiezas domesticas, fachadas. Especialistas en comunidades de vecinos.</p>
 						</div>
 					</div>
 				</div>
@@ -163,7 +163,7 @@
 				<div class="row">
 					<div class="divider-des">
 						<h3 class="text-uppercase">Presupuesto sin compromiso</h3>
-						<p>Contacta con nosotros, cuentanos tu proyecto, te lo valoramos y te asesorar, sin ningun compormiso.</p>
+						<p>Contacta con nosotros, cuéntanos tu proyecto, te lo valoramos y te asesorar, sin ningún compromiso.</p>
 						<a href="#contact" class="btn btn-default text-uppercase">Contactar</a>
 					</div>
 				</div>
@@ -197,7 +197,7 @@
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
 					</div>
-					<span class="text-uppercase">Satisfacion de cliente 90%</span>
+					<span class="text-uppercase">Satisfacción de cliente 90%</span>
 					<div class="progress">
 						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
 					</div>
@@ -234,27 +234,28 @@
 					<div class="wow bounceIn">
 						<h2 class="wow bounceIn">Contactar</h2>
 						<hr>
-						<h4>Dinos que necesitas y te respondemos rapidamente</h4>
-						<h3 class="text-center"> Telefonos
+						<h4>Dinos que necesitas y te respondemos rápidamente</h4>
+						<h3 class="text-center"> Teléfonos
 							<a href="tel:+34961583488">961 58 34 88</a> o
-							<a href="tel:+34606405159">606 40 51 59</a>
-							<a href="https://wa.me/34606405159?text=Hola%20necesito%20información%20"><img src="images/contactar-por-whatsapp.png" alt="contactar por whatsapp"></a>
+							<a href="tel:+34722116663">722 11 66 63</a>
+							<a href="https://wa.me/34722116663?text=Hola%20necesito%20información%20"><img src="images/contactar-por-whatsapp.png" alt="contactar por whatsapp"></a>
 						</h3>
 					</div>					
-					<form action="#" method="post" role="form">
+					<form action="#" method="post" role="form" id="contactForm">
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="text" placeholder="Nombre" class="form-control">
+							<input name="nombre" type="text" placeholder="Nombre" class="form-control">
 						</div>
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="email" placeholder="Email" class="form-control">
+							<input name="email" type="email" placeholder="Email" class="form-control">
 						</div>
 						<div class="col-md-4 col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-							<input type="text" placeholder="Teléfono" class="form-control">
+							<input name="telefono" type="text" placeholder="Teléfono" class="form-control">
 						</div>
 						<div class="col-md-12 col-sm-12 wow fadeIn" data-wow-delay="0.9s">
-							<textarea class="form-control" rows="5" placeholder="dinos que necesitas"></textarea>
+							<textarea name="mensaje" class="form-control" rows="5" placeholder="Dinos que necesitas"></textarea>
 						</div>
 						<div class="col-md-offset-3 col-sm-offset-3 col-sm-6 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+							<input type="hidden" name="origen" value="fullservice2020.com">
 							<input type="submit" value="Enviar" class="form-control">
 						</div>
 					</form>
@@ -282,5 +283,6 @@
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/ajaxmail.js"></script>
 </body>
 </html>
